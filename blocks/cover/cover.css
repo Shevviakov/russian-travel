@@ -1,6 +1,6 @@
 .cover {
-  width: 1184px;
-  height: 740px;
+  width: min(1184px, 100vw);
+  height: min(740px, calc(100vw * 5 / 8));
   margin: 0 auto;
   position: relative;
   background-image: url("../../images/cover-trains.jpg");
