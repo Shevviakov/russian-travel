@@ -1,0 +1,8 @@
+.lead__image-caption {
+  margin: 8px 0 0;
+  width: fit-content;
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.15em;
+}
