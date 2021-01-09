@@ -1,13 +1,11 @@
 .header__lang-links {
-  box-sizing: border-box;
-  height: 100%;
   margin: 0;
-  padding: 0 0 4px;
+  padding: 0 0 8px;
   list-style-type: none;
   display: grid;
   grid-template-rows: none;
   grid-template-columns: repeat(2, max-content);
   justify-content: center;
   align-content: end;
-  gap: 0 18px;
+  gap: 18px;
 }

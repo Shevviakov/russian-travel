@@ -4,7 +4,7 @@
   padding: 0 48px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
 
 @media screen and (max-width: 1024px) {
@@ -16,8 +16,16 @@
 
 @media screen and (max-width: 768px) {
   .footer {
+    margin-top: 88px;
+    max-width: 720px;
+    padding: 0 16px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .footer {
+    margin-top: 64px;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0 16px;
   }
 }
