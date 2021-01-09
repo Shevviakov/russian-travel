@@ -1,5 +1,5 @@
 .cover {
-  width: min(1184px, 100vw);
+  width: min(1184px, 100%);
   height: min(740px, calc(100vw * 5 / 8));
   margin: 0 auto;
   position: relative;
